@@ -1,3 +1,9 @@
+.all {
+   width: 100%;
+   height: 1000px;
+   background: black;
+}
+
 .container {
    width: 1100px;
    border: 2px solid black;
@@ -5,7 +11,6 @@
    flex-direction: column;
    align-items: center;
    margin: 0 auto;
-   padding-top: 60px;
 }
 
 .title {
@@ -13,14 +18,14 @@
    height: 70px;
    margin: 0 auto;
    display: flex;
-   /* flex-direction: row; */
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
-   background: rgba(225, 227, 223, 0.469);
-   box-shadow: 5px 5px 3px black;
+   background:black;
+   border:2px solid white;
+   /* background: rgba(225, 227, 223, 0.469); */
    position: fixed;
    top: 0px;
-   /* margin-bottom: 80px; */
+   z-index: 2000;
 }
 
 .language {
@@ -35,6 +40,8 @@
 .col1 {
    width: 700px;
    margin: 0 auto;
+   display: flex;
+   justify-content: center;
 }
 
 .col2 {
@@ -43,15 +50,15 @@
 
 .navlist {
    font-size: 20px;
-   color: black;
+   color: white;
+   background: #018DC2;
    padding-top: 1px;
    padding-bottom: 1px;
    padding-left: 16px;
    padding-right: 16px;
-   border: 1px solid black;
+   border: 1px solid white;
    border-radius: 12px;
    text-decoration: none;
-   font-weight: bold;
    cursor: pointer;
    transition: all 0.5s ease;
 }
@@ -60,26 +67,11 @@
    background: rgb(173, 243, 170);
 }
 
-.proposal {
+.porposal {
    max-width: 1100;
-   margin-top: 50px;
-   background: #FFFFFF;
-}
-
-.col3 {
-   width: 1000px;
-   height: 50px;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   background: #26BDBF;
-   border: 2px solid white;
-}
-
-.item1 {
-   font-size: 20px;
-   padding: 10px 5px;
-   margin: 10px 5px;
-   text-decoration: none;
+   margin-top: 110px;
+   color: black;
+   z-index: 500;
 }
 
 table {
@@ -87,6 +79,10 @@ table {
 }
 
 tr:nth-child(even) {
+   background-color: #C2F4F5;
+}
+
+tr:nth-child(odd) {
    background-color: #EEFBFE;
 }
 
