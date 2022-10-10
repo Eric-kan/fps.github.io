@@ -1,94 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>商品百科<測試版>
-   </title>
-   <link rel="stylesheet" href="./CSS/index.css">
-   <link rel="stylesheet" href="./CSS/base.css">
-   <!-- getsbootrap CSS-->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!-- <link rel="stylesheet" href="./CSS/base.css"> -->
+<link rel="stylesheet" href="./CSS/index.css">
 </head>
+<body>
 
+<div class="bc" data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>計劃書列表</h1>
+  </div>
 
+  <div data-role="main" class="ui-content">
+    <h2>約略分項</h2>
 
-<body class="all">
-   <div class="container">
-      <!-- NavBar 開始 -->
-      <div class="title">
-         <div class="col1">
-            <a class="navlist" href="#usually">常用</a>
-            <!-- <a class="navlist" href="#us-return">美元還本</a> -->
-            <!-- <a class="navlist" href="#important">重大傷疾病</a> -->
-            <!-- <a class="navlist" href="#longcare">長　 照</a> -->
-            <!-- <a class="navlist" href="#accident">意　 外</a> -->
-            <!-- <a class="navlist" href="#medicine">醫　 療</a> -->
-         </div>
-         <div class="col2">
-            <input type="search" placeholder="商品代號" aria-label="Search">
-            <button type="submit">搜尋</button>
-         </div>
-         <p class="language">Persist, Never Give Up !</p>
-      </div>
-      <!-- NavBar 結束 -->
+    <div data-role="collapsible">
+    <h4>癌症險</h4>
+    <ul data-role="listview">
+      <li><a href="./commodity/usually/CLO/CLO精準守護專案試算表V1.1-1111001-業務服展北富銀(1111001起適用).xlsx" target="_blank">精準守護防癌定期健康保險(CLO)</a></li>
+      <li><a href="./commodity/usually/CMR/CMR-DM-公版(1110815起適用).pdf" target="_blank">愛精準防癌定期健康保險附約(CMR)</a></li>
+      <li><a href="./commodity/usually/CNR/CNR-DM-公版(1110815起適用).pdf" target="_blank">真愛安康防癌定期健康保險附約(CNR)</a></li>
+    </ul>
+    </div>
 
+    <div data-role="collapsible">
+    <h4>重大傷疾病</h4>
+    <ul data-role="listview">
+      <li><a href="./commodity/usually/SWV/SWV-醫卡優專案試算表V1.1-1110801-業務、服展、北富銀.xlsx" target="_blank">醫卡優重大傷病終身健康保險(SWV)</a></li>
+      <li><a href="./commodity/usually/SWT/SWT醫定罩專案試算表V1.5-1111001-業務服展北富銀(1111001起適用).xlsx" target="_blank">醫定罩重大傷病終身健康保險(SWT)</a></li>
+      <li><a href="./commodity/usually/SWW/SWW丰彩人生專案試算表-V1.1-1111001-業務服展北富銀(1111001起適用).xlsx" target="_blank">丰彩人生重大疾病一年定期保險(SWW)</a></li>
+      <li><a href="./commodity/usually/CNR/CNR-DM-公版(1110815起適用).pdf" target="_blank">家有醫寶重大傷病定期健康保險(V1)(SWUC/SWUD)</a></li>
+    </ul>
+    </div>
 
-      <!-- 用 Table 做 -->
-      <div class="porposal" id="usually">
-         <table>
-            <tr>
-               <td><a href="./commodity/usually/OLA5/OLA5 金來寶小額終身保險專案試算表V1.3-1110701業務服展北富銀.xlsx"
-                     target="_blank">OLA5</a></td>
-               <td><a href="./commodity/usually/OLA5/OLA5 條款樣張.pdf" target="_blank">條款</a></td>
-               <td><span>金來寶小額終身壽險</span></td>
-               <!-- <td><span>小額終身壽險，含同業最高額度可買70萬，繳費6 10 15 20</span></td> -->
-            </tr>
-            <tr>
-               <td><a href="./commodity/usually/SWV/SWV-醫卡優專案試算表V1.1-1110801-業務、服展、北富銀.xlsx" target="_blank">SWV</a>
-                  </<td>
-               <td><a href="./commodity/usually/SWV/SWV 保險單條款樣張(自1110701起適用).pdf" target="_blank">條款</a></td>
-               <td><span>醫卡優重大傷病終身健康保險</span></td>
-               <!-- <td><span>重大傷病+急性心肌梗塞(重度)+冠狀動脈繞道手術 繳費 10 15 20</span></td> -->
-            </tr>
-            <tr>
-               <td><a href="./commodity/usually/SWS/SWS 專案試算表V1.4-1110701-業務服展北富銀.xlsx" target="_blank">SWS</a></<td>
-               <td><a href="./commodity/usually/SWS/SWS 保險單條款樣張(1100701起適用).pdf" target="_blank">條款</a></td>
-               <td><span>醫起寶重大傷病保險</span></td>
-               <!-- <td><span>重大傷病定期，繳費完後十年領回保額 繳費 10 15 20</span></td> -->
-            </tr>
-            <tr>
-               <td><a href="./commodity/usually/SWT/SWT醫定罩專案試算表V1.4-1110701業務服展北富銀.xlsx" target="_blank">SWT</a></<td>
-               <td><a href="./commodity/usually/SWT/SWT醫定罩專案試算表V1.4-1110701業務服展北富銀.xlsx" target="_blank">條款</a></td>
-               <td><span>醫定罩重大傷病終身健康保險</span></td>
-               <!-- <td><span>重大傷病終身，可領120個月或是折現領回 繳費 10 15 20</span></td> -->
-            </tr>
-            <tr>
-               <td><a href="./commodity/usually/AJC/AJC-享平安專案試算表V1.3-1110101-業務、服展、北富銀.xlsx" target="_blank">AJC</a></<td>
-               <td><a href="./commodity/usually/AJC/AJC保險單條款樣張(自1100917起適用).pdf" target="_blank">條款</a></td>
-               <td><span>享平安終身保險</span></td>
-               <!-- <td><span>意外失能險 只賣 1-3級 採1~6級理賠 身故退保費60歲以前費率一樣 繳費 6 20</span></td> -->
-            </tr>
+    <div data-role="collapsible">
+    <h4>長照險</h4>
+    <ul data-role="listview">
+       <li><a href="./commodity/usually/LTH1/LTH1-連馨專案試算表V1.1-1111001-業務、服展、北富銀(1111001起適用).xlsx">連馨長期照顧終身健康保險(LTH1)</a></li>
+    </ul>
+    </div>
 
-         </table>
-      </div>
+    <div data-role="collapsible">
+    <h4>意外險</h4>
+    <ul data-role="listview">
+      <li><a href="./commodity/usually/AJC/AJC-享平安專案試算表V1.4-1111001-業務、服展、北富銀(1111001起適用).xlsx">享平安終身保險(AJC)</a></li>      
+    </ul>
+    </div>
+  </div>
 
-      <footer>
+  <div data-role="footer">
+    <h1>測試版本</h1>
+  </div>
+</div>
 
-      </footer>
-   </div>
-
-
-
-   <!-- getsbootrap JavaScript -->
-   <!-- JavaScript Bundle with Popper -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"></script>
-   <script src="./JS/index.js"></script>
 </body>
-
 </html>
