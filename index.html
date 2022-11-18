@@ -1,155 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css"
-    />
-    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <!-- <link rel="stylesheet" href="./CSS/base.css"> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FPS in BootsTrap</title>
     <link rel="stylesheet" href="./CSS/index.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <div data-role="page" id="pageone">
-      <div data-role="header">
-        <h1>計劃書頁面</h1>
-        <div data-role="navbar">
-          <ul>
-            <li>
-              <a href="#" class="ui-btn-active" data-icon="home">計畫書頁面</a>
-            </li>
-            <li>
-              <a href="./another.html" data-icon="arrow-r"
-                >商品概說 DM 保單條款</a
-              >
-            </li>
-          </ul>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">FPSearch</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">試算表</a>
+            <a class="nav-link" href="#">商品分類</a>
+            <a class="nav-link" href="#">常用電話</a>
+            <a class="nav-link disabled">Disabled</a>
+          </div>
         </div>
       </div>
-
-      <div data-role="main" class="ui-content">
-        <h2>約略分項</h2>
-
-        <div data-role="collapsible">
-          <h4>台幣終身壽險</h4>
-          <ul data-role="listview">
-            <li>
-              <a
-                href="./commodity/usually/OLA5/OLA5 金來寶小額終身保險專案試算表V1.4-1111001業務服展北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >金來寶小額終身壽險(OLA5)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/XWS4/XWS4-新平準專案試算表V1.4-1111001-業務、服展、北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >新平準終身壽險(XWS4)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/XLX3/XLX3-專案試算表V1.3-1111001-業務服展(1111001起適用).xlsx"
-                target="_blank"
-                >真享福平準終身壽險(XLX3)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div data-role="collapsible">
-          <h4>癌症險</h4>
-          <ul data-role="listview">
-            <li>
-              <a
-                href="./commodity/usually/CLO/CLO精準守護專案試算表V1.1-1111001-業務服展北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >精準守護防癌定期健康保險(CLO)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/CMR/CMR-DM-公版(1110815起適用).pdf"
-                target="_blank"
-                >愛精準防癌定期健康保險附約(CMR)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/CNR/CNR-DM-公版(1110815起適用).pdf"
-                target="_blank"
-                >真愛安康防癌定期健康保險附約(CNR)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div data-role="collapsible">
-          <h4>重大傷疾病</h4>
-          <ul data-role="listview">
-            <li>
-              <a
-                href="./commodity/usually/SWW/SWW丰彩人生專案試算表-V1.1-1111001-業務服展北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >醫卡優重大傷病終身健康保險(SWV)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/SWT/SWT醫定罩專案試算表V1.5-1111001-業務服展北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >醫定罩重大傷病終身健康保險(SWT)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/SWW/SWW丰彩人生專案試算表-V1.1-1111001-業務服展北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >丰彩人生重大疾病一年定期保險(SWW)</a
-              >
-            </li>
-            <li>
-              <a
-                href="./commodity/usually/CNR/CNR-DM-公版(1110815起適用).pdf"
-                target="_blank"
-                >家有醫寶重大傷病定期健康保險(V1)(SWUC/SWUD)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div data-role="collapsible">
-          <h4>長照險</h4>
-          <ul data-role="listview">
-            <li>
-              <a
-                href="./commodity/usually/LTH1/LTH1-連馨專案試算表V1.1-1111001-業務、服展、北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >連馨長期照顧終身健康保險(LTH1)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div data-role="collapsible">
-          <h4>意外險</h4>
-          <ul data-role="listview">
-            <li>
-              <a
-                href="./commodity/usually/AJC/AJC-享平安專案試算表V1.4-1111001-業務、服展、北富銀(1111001起適用).xlsx"
-                target="_blank"
-                >享平安終身保險(AJC)</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div data-role="footer">
-        <h1>測試版</h1>
-      </div>
-    </div>
+    </nav>
+  </div>
   </body>
 </html>

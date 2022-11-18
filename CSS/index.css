@@ -1,3 +1,9 @@
-.bc{
-   background-color: #003847;
+html{
+
+   background-color:aqua;
+}
+
+.container{
+   margin:auto;
+   width:1920px;
 }
