@@ -1,9 +1,51 @@
-html{
+/* html{
 
    background-color:aqua;
-}
+} */
 
 .container{
    margin:auto;
-   width:1920px;
+}
+
+.callpicture{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-around;
+}
+
+.company{
+   width:300px;
+   height:550px;
+   border:2px #fff solid;
+   border-radius:25px;
+   background-color:	#ECECFF;
+   box-shadow:0 0 25px 	#8E8E8E;
+   backdrop-filter:blur(5px);
+   margin-bottom:30px;
+}
+
+.title{
+   padding-top:20px;
+   padding-bottom:20px;
+   font-weight:500px;
+   text-align:left;
+   color:blue;
+   border-bottom:1px solid #BEBEBE;
+   text-indent: 15px;
+}
+
+.phone{
+   display:flex;   
+   flex-direction:column;
+   justify-content:space-around;
+   align-items:center;
+   margin-top:10px;
+}
+
+.phone h4{
+   font-weight:bold;
+}
+
+.phone h5{
+   text-indent: 2px;  
 }
