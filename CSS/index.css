@@ -31,7 +31,8 @@
    text-align:left;
    color:blue;
    border-bottom:1px solid #BEBEBE;
-   text-indent: 15px;
+   /* 縮排 */
+   text-indent: 15px;      
 }
 
 .phone{
@@ -47,5 +48,5 @@
 }
 
 .phone h5{
-   text-indent: 2px;  
+   /* text-indent: 2px;   */
 }
