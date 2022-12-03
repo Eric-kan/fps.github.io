@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>FPS in BootsTrap</title>
+   <link rel="stylesheet" href="../CSS/index.css" />
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+   <!-- JavaScript Bundle with Popper -->
+</head>
+
+<body>
+   <div class="container">
+      <!-- TODO: 設定 md 讓 ipad 可以看到全畫面 -->
+      <nav class="navbar navbar-expand-md bg-info">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">FPSearch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav">
+                  <a class="nav-link fw-bold fs-5" aria-current="page" href="../index.html">商引分類</a>
+                  <a class="nav-link fw-bold fs-5" href="#classification">試算表</a>
+                  <a class="nav-link fw-bold fs-5" href="#call">常用電話</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+
+      <!-- TODO:常用電話 -->
+      <div id="call" class="callpicture">
+         <div class="company col-xs-9 col-md-4">
+            <h2 class="title">富邦產物常用電話</h2>
+            <div class="phone">
+               <h4>服務中心</h4>
+               <!-- <h5>0800-009-888</h5> -->
+               <h5><a href="tel:0800009888">0800-009-888</a></h5>
+               <br />
+               <h4>汽車拖吊</h4>
+               <h5>行遍天下 : 0800-071-111</h5>
+               <h5>全　　鋒 : 0800-013-013</h5>
+               <br />
+               <h4>機車拖吊 :</h4>
+               <h5>0800-000-911</h5>
+               <br />
+               <h4>旅平險投保專線:</h4>
+               <h5>0809-019-888</h5>
+            </div>
+         </div>
+
+         <div class="company col-xs-9 col-md-4">
+            <h2 class="title">富邦人壽常用電話</h2>
+            <div class="phone">
+               <h4>服務中心(客戶)</h4>
+               <h5>0809-000-550</h5>
+               <br />
+               <h4>服務中心(同仁)</h4>
+               <h5>02-2757-0666</h5>
+               <br />
+               <h4>旅平險投保專線</h4>
+               <h5>0809-001-688</h5>
+               <br />
+               <h4>海外急難救助專線</h4>
+               <h5>+886 2 23459292</h5>
+               <img src="./img/QR_Code.png" width="80" usemap="#workmap" alt="網路電話條碼" />
+               <map name="workmap">
+                  <area shape="rect" coords="1,1,1465,669" alt="網路電話條碼"
+                     href="https://webrtc.fubonlife.com.tw/dial/call/886223459292" />
+               </map>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="/JSP/index.jsp"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
